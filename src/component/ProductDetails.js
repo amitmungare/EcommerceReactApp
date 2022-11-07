@@ -66,10 +66,10 @@ const ProductDetails = ({item}) => {
       {/* display more images  */}
       <div className='moreImagesDiv'>
         <h5>More images</h5>
-        <img src={item.images[0]}></img>
-        <img src={item.images[1]}></img>
-        <img src={item.images[2]}></img>
-        <img src={item.images[3]}></img>
+        <img alt="error" src={item.images[0]}></img>
+        <img alt="error" src={item.images[1]}></img>
+        <img alt="error" src={item.images[2]}></img>
+        <img alt="error" src={item.images[3]}></img>
       </div>
     
     </div>

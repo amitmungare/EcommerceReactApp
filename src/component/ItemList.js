@@ -3,11 +3,11 @@ import { useSelector } from 'react-redux'
 import Item from './Item';
 import Sort from './Sort';
 
-const ItemList = ({}) => {
+const ItemList = () => {
 
   const data =useSelector((state)=> state.products);
 
-  if(data.length==0){
+  if(data.length===0){
     // loading data before fatching from api 
     return (
       <div>Loading...</div>

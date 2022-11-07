@@ -12,7 +12,7 @@ const Navbar = () => {
 
       <div className='navLeftDiv'>
         {/* website logo  */}
-        <Link to="/" href="#"><img className='logoimg' src='./images/logoecom.png'></img></Link>
+        <Link to="/" href="#"><img className='logoimg' alt="error" src='./images/logoecom.png'></img></Link>
 
         {/* products button */}
         <Link className='productslink' to="/" href="#">Products </Link>

@@ -56,8 +56,8 @@ const Item = ({ item }) => {
 
   // function to delete item 
   function handleDeleteProduct(item) {
-    let url = `https://my-json-server.typicode.com/amitmungare/ecomapi/products/${item.id}`
-    let result = fetchData(url, { method: 'DELETE' })
+    // let url = `https://my-json-server.typicode.com/amitmungare/ecomapi/products/${item.id}`
+    // let result = fetchData(url, { method: 'DELETE' })
 
     let i = products.indexOf(item)
     products.splice(i, 1)
@@ -100,6 +100,7 @@ const Item = ({ item }) => {
         {/* product image  */}
         <img
           className="tnimg"
+          alt='error'
           src={item.thumbnail}
           onClick={() => handleClick(item)}
         />

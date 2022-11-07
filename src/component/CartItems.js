@@ -12,7 +12,7 @@ const CartItems = () => {
   }, 0)
 
   // if cart is empty display cart is empty
-  if (cartItem.length == 0) {
+  if (cartItem.length === 0) {
     return <h1>Cart is Empty</h1>
   } else {
     return (
