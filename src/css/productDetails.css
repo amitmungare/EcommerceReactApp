@@ -1,0 +1,79 @@
+.mainPDdiv{
+    display: flex;
+}
+
+.pdimg{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    object-fit: contain;
+    width: 50rem;
+    height: 35rem;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.pddatadiv{
+    margin-top: 7rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    text-align: left;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: rgba(224, 255, 255, 0.768);
+}
+
+.pddatadiv p{
+    font-size: 1.4rem;
+}
+
+.addtocartbtn{
+    background-color: lightgreen;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.moreImagesDiv{
+    margin-top: 4rem;
+}
+
+.moreImagesDiv img{
+    width: 24rem;
+    height: 15rem;
+    object-fit: contain;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+@media screen and (max-width:1020px) {
+
+    .mainPDdiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pdimg{
+        margin-top: 2rem;
+        margin-left: 12rem;
+        width: 30rem;
+        height: 25rem;
+    }
+
+}
+
+
+@media screen and (max-width:700px) {
+    .pdimg{
+        margin-top: 2rem;
+        margin-left: 2rem;
+        width: 20rem;
+        height: 15rem;
+    }
+}

@@ -1,0 +1,117 @@
+
+.itemlistmaindiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+}
+
+.sortitemsbtn{
+    margin-top: 1.2rem;
+    text-align: left;
+    margin-left: 3rem;
+}
+.sortSpan{
+    background-color: aqua;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+.itemcartdiv{
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 1rem;
+    width: 32.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(227, 12, 137, 0.521);
+    transition: 0.3s;
+}
+.itemcartdiv:hover{
+    box-shadow: 0 8px 16px 0 rgba(64, 69, 238, 0.422);
+}
+    
+.tnimg{
+    
+    width: 29rem;
+    height: 18rem;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+.datadivname{
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+.datadivname p{
+    font-size: 1.2rem;
+}
+
+.datadivname h3{
+    margin-top: 1rem;
+}
+
+.discriptiondiv{
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.addtocartbtn{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+}
+
+.cancleedit{
+    background-color: lightcoral;
+    border: none;
+    font-weight: bold;
+    padding: 0.6rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.saveEdit{
+    background-color: lightgreen;
+    border: none;
+    font-weight: bold;
+    padding: 0.6rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.productBtnDiv{
+    margin-top: 20px;
+}
+
+.spanicons{
+    margin-left: 15rem;
+    margin-right: 1rem;
+}
+
+
+@media screen and (max-width:560px) {
+
+.tnimg{
+    width: 16rem;
+    height: 12rem;
+}
+
+.spanicons{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+}

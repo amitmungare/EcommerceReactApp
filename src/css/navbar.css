@@ -1,0 +1,153 @@
+
+.navMain{
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.navLeftDiv{
+    display: flex;
+}
+
+.logoimg{
+    width: 15rem;
+    height: 3.5rem;
+}
+
+.navRightDiv{
+    display: flex;
+}
+
+
+
+.productslink{
+    margin-left: 10rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: aquamarine;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+}
+
+.addtocartlink{
+    margin-left: 5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: aquamarine;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+}
+
+.cartImg{
+    width: 55px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+.ptotal{
+    width: 30px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: -20px;
+    margin-top: -5px;
+}
+
+.accountImg{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 55px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width:1020px) {
+
+.navMain{
+    justify-content: left;
+}
+
+.cartImg{
+    margin-left: 1rem;
+}
+
+.productslink{
+    margin-left: 1rem;
+}
+.addtocartlink{
+    margin-left: 1rem;
+}
+
+}
+
+
+@media screen and (max-width:825px) {
+
+.logoimg{
+    width: 4rem;
+    height: 2rem;
+}
+
+.productslink{
+    font-size: 15px;
+}
+.addtocartlink{
+    font-size: 15px;
+}
+
+.cartImg{
+    width: 50px;
+    height: 50px;
+}
+
+.accountImg{
+    width: 50px;
+    height: 50px;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+}
+
+
+
+@media screen and (max-width:440px) {
+
+    .logoimg{
+        width: 3rem;
+        height: 2rem;
+    }
+
+    .productslink{
+        font-size: 13px;
+        margin-left: 0.3rem;
+    }
+    .addtocartlink{
+        font-size: 13px;
+        margin-left: 0.5rem;
+    }
+    
+    .cartImg{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .accountImg{
+        width: 40px;
+        height: 40px;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+    }
+
+}

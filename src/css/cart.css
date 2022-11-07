@@ -1,0 +1,137 @@
+
+.mainDiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cartDiv{
+    margin: 1rem;
+}
+
+.priceDetailsDiv{
+    background-color: rgba(97, 187, 244, 0.618);
+    width: 30rem;
+    height: min-content;
+    margin-top: 15rem;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.space{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for cart */
+
+.cart-div{
+    background-color: rgba(251, 135, 193, 0.647);
+    margin: 1rem;
+    padding: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-radius: 20px;
+}
+.cart-div img{
+    object-fit: contain;
+}
+
+.cartProductDiv{
+    width: 26rem;
+    height: 16rem;
+    border-radius: 10px;
+}
+
+.cart-item-details{
+    display: flex;
+    justify-content: space-between;
+    padding-left:2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+
+.itemDetailsDiv p{
+    font-size: 20px;
+}
+
+.rightDetailsDiv span{
+    padding-left:5px ;
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cancleBtnCart{
+    border: none;
+    background-color: rgb(235, 23, 23);
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+@media screen and (max-width:860px) {
+
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .priceDetailsDiv{
+        width: 20rem;
+        height: min-content;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        border-radius: 20px;
+    }
+
+}
+
+@media screen and (max-width:530px) {
+    .cartProductDiv{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .itemDetailsDiv p{
+        font-size: 15px;
+    }
+
+    .priceDetailsDiv{
+        width: 20rem;
+        height: min-content;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        border-radius: 20px;
+    }
+    
+    .space{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+    }
+}

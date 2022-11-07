@@ -1,0 +1,42 @@
+
+.addMainDiv{
+    margin: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.addForm{
+    width:min-content;
+    background-color: rgb(243, 41, 118, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.input{
+    text-align: center;
+    width: 40rem;
+    margin: 1rem;
+    background-color: rgb(226, 242, 247);
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 40px;
+}
+.subtn{
+    border: none;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 40px;
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgb(238, 37, 140);
+}
