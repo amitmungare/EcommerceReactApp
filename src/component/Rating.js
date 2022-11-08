@@ -1,7 +1,7 @@
 import { Rating } from '@mui/material'
 import React from 'react'
 
-const BasicRating = ({value}) => {
+const Ratings = ({value}) => {
   return (
   //  this is the material UI Rating 
     <Rating
@@ -11,4 +11,4 @@ const BasicRating = ({value}) => {
   )
 }
 
-export default BasicRating
+export default Ratings

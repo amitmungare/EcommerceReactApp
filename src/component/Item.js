@@ -11,7 +11,7 @@ import fetchData from '../apicalls/ApiCall'
 import { showToastMessage } from '../notification/Notify'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import BasicRating from './BasicRating'
+import Ratings from './Rating'
 import '../css/itemList.css'
 
 const Item = ({ item }) => {
@@ -124,7 +124,7 @@ const Item = ({ item }) => {
             )}
 
             {item.edit ? (
-              <BasicRating value={item.rating} />
+              <Ratings value={item.rating} />
             ) : (
               <div>
                 {/* rating of the product */}

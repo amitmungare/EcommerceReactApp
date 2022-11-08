@@ -4,7 +4,7 @@ import { addCart, CartItems } from '../actions/Actions';
 import {showToastMessage} from "../notification/Notify";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import BasicRating from "./BasicRating"
+import Ratings from "./Rating"
 import '../css/productDetails.css'
 
 const ProductDetails = ({item}) => {
@@ -12,7 +12,7 @@ const ProductDetails = ({item}) => {
   const dispatchCart = useDispatch();
   const dispatchTotal = useDispatch();
 
-  // function to add  product to cart
+  // function to add product to cart
   function handleClick(item){
     if(!item.qty){
       item.qty=1;
@@ -46,7 +46,7 @@ const ProductDetails = ({item}) => {
             
             {/* rating  */}
             <span>
-              <BasicRating value={item.rating} />
+              <Ratings value={item.rating} />
             </span>
 
             {/* price of product */}

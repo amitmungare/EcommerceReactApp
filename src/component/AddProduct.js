@@ -103,7 +103,7 @@ function handleSubmit(event){
 
         {/* submit button */}
         <button type="submit" className='subtn'>
-          Add to Cart
+          Add New Product
         </button>
       </form>
     </div>
